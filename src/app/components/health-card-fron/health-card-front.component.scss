@@ -1,0 +1,43 @@
+:host {
+  .card-container {
+    width: 343px;
+    height: 222px;
+
+    background: url('../../../assets/front.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+    clip-path: inset(1% 1% 1% 1%);
+
+    border: none;
+    border-radius: 18px;
+  }
+
+  .names {
+    position: absolute;
+    top: 19%;
+    left: 56%;
+  }
+
+  .health-id {
+    position: absolute;
+    top: 39%;
+    left: 50%;
+  }
+
+  .validity {
+    position: absolute;
+    top: 60%;
+    left: 39%;
+  }
+
+  .title {
+
+  }
+
+  .content {
+
+  }
+}
